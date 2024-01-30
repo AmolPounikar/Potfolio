@@ -4,6 +4,7 @@ import bitsOfCode from "../../Assets/Projects/blog.png";
 import IMDB from "../../Assets/Projects/imdb_img.png";
 import portfolio from "../../Assets/Projects/portfolio_img.jpg";
 import quiz from "../../Assets/Projects/quiz-background.png";
+import admin from "../../Assets/Projects/admin-dashboard.png";
 import realEstate from "../../Assets/Projects/real-estate-image.jpg";
 import Particle from "../Particle";
 import ProjectCard from "./ProjectCards";
@@ -59,7 +60,7 @@ function Projects() {
               title="Portfolio"
               description="Crafted my portfolio with React.js, enhancing it with React-Bootstrap for a responsive layout and React-tsparticles for interactive visuals. Custom CSS adds a personal touch, creating a unique showcase of my skills and projects."
               ghLink="https://github.com/AmolPounikar"
-              demoLink=""
+              demoLink="https://react-portfolio-basic-black.vercel.app/"
             />
           </Col>
 
@@ -70,7 +71,18 @@ function Projects() {
               title="Quiz-App"
               description="Developed a dynamic quiz app using React.js, JavaScript, ReactBootstrap, and Mui CSS for the frontend, coupled with a robust backend powered by Node.js, MongoDB, and Express. Seamlessly create, manage, and participate in quizzes, enhancing user engagement and interaction."
               ghLink="https://github.com/AmolPounikar"
-              demoLink="asdasd"
+              demoLink="https://quiz-app-client-ruby.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={admin}
+              isBlog={false}
+              title="Quiz-App"
+              description="Developed a dynamic Admin-Dashboard app using React.js, JavaScript, Mui CSS for the frontend, coupled with a robust backend powered. Seamlessly create, manage, and participate in admin panel, enhancing user engagement and interaction."
+              ghLink="https://github.com/AmolPounika"
+              demoLink="https://admin-dashboard1-six.vercel.app/"
             />
           </Col>
         </Row>
