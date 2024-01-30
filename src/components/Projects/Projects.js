@@ -79,10 +79,10 @@ function Projects() {
             <ProjectCard
               imgPath={admin}
               isBlog={false}
-              title="Quiz-App"
+              title="Admin-Dashboard"
               description="Developed a dynamic Admin-Dashboard app using React.js, JavaScript, Mui CSS for the frontend, coupled with a robust backend powered. Seamlessly create, manage, and participate in admin panel, enhancing user engagement and interaction."
-              ghLink="https://github.com/AmolPounika"
-              demoLink="https://admin-dashboard1-six.vercel.app/"
+              ghLink="https://github.com/AmolPounikar/admin-dashboard1"
+              demoLink="https://admin-dashboard-ashy-xi.vercel.app/"
             />
           </Col>
         </Row>
